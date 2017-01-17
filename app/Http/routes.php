@@ -14,3 +14,4 @@
 Route::singularResourceParameters();
 
 Route::resource('articles', 'ArticlesController');
+Route::resource('authors', 'AuthorsController');
