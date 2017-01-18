@@ -1,3 +1,5 @@
+@extends($layout)
+@section('content')
 <h1>Articles</h1>
 {!! link_to_route('articles.create', 'New Article') !!}
 <table border="1">
@@ -20,3 +22,4 @@
 		</tr>
 	@endforeach
 </table>
+@endsection

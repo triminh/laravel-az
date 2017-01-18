@@ -1,3 +1,5 @@
+@extends($layout)
+@section('content')
 <h1>Authors</h1>
 {!! link_to_route('authors.create', 'New Author') !!}
 <table border="1">
@@ -18,3 +20,4 @@
 		</tr>
 	@endforeach
 </table>
+@endsection
